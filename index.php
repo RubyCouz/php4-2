@@ -8,12 +8,12 @@
    <body>
      <p>
 <?php
-function string($firstname, $lastname)
+function string($firstname)
 {
-  $name = $firstname . ' ' . $lastname;
+  $name = $firstname;
   return $name;
 }
- echo string('Cousin Ruby', 'Cédric');
+ echo string('Cédric');
 
  ?>
      </p>
